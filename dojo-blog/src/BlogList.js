@@ -1,6 +1,6 @@
 import React from "react";
 
-const BlogList = ({ blogs, title, handleDelete }) => {
+const BlogList = ({ blogs, title }) => {
   // These lines are commented because  line above
   // Instead of using BlogList = (props) => ...
   // we opted to destucture directly into the props object received...
@@ -17,7 +17,6 @@ const BlogList = ({ blogs, title, handleDelete }) => {
         <div className="blog-preview" key={blog.id}>
           <h2>{blog.title}</h2>
           <p>Written by {blog.author}</p>
-          <button onClick={() => handleDelete(blog.id)}>delete blog</button>
         </div>
       ))}
     </div>
