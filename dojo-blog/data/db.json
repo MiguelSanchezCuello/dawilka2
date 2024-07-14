@@ -2,7 +2,7 @@
   "blogs": [
     {
       "title": "My new website",
-      "body": "lorem ipsum...",
+      "body": "El primer blog escrito por mario explica como pretende salvar a la princesa",
       "author": "Mario",
       "id": 1
     },
