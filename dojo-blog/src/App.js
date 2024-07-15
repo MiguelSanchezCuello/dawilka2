@@ -6,6 +6,7 @@ import {
   Routes,
   Switch,
 } from "react-router-dom";
+import Cretae from "./Create";
 
 function App() {
   return (
@@ -13,11 +14,14 @@ function App() {
       <div className="App">
         <Navbar />
         <div className="content">
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-        </Switch>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/create">
+              <Cretae />
+            </Route>
+          </Switch>
         </div>
       </div>
     </Router>
