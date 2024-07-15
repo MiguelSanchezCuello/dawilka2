@@ -7,6 +7,7 @@ import {
   Switch,
 } from "react-router-dom";
 import Cretae from "./Create";
+import BlogDetails from "./BlogDetails";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
             </Route>
             <Route exact path="/create">
               <Cretae />
+            </Route>
+            <Route exact path="/blogs/:id">
+              <BlogDetails />
             </Route>
           </Switch>
         </div>
