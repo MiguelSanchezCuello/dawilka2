@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
 
 const Create = () => {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
   const [author, setAuthor] = useState("mario");
   const [isPending, setIsPending] = useState(false);
+  const history = useHistory();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -23,6 +25,8 @@ const Create = () => {
     }).then(() => {
       console.log("New blog added");
       setIsPending(false);
+      // history.go(-1) this is like clicking the back arrow in the broswer to go back, if you want to go forward put the 1 as positive
+      history.push("/");
     });
   };
 
