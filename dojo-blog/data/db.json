@@ -4,13 +4,31 @@
       "title": "My new website",
       "body": "El primer blog escrito por mario explica como pretende salvar a la princesa",
       "author": "Mario",
-      "id": 1
+      "id": "1"
     },
     {
       "title": "Welcome party!",
       "body": "lorem ipsum...",
       "author": "Yoshi",
-      "id": 2
+      "id": "2"
+    },
+    {
+      "id": "0494",
+      "title": "sdfasd",
+      "body": "asdf",
+      "author": "mario"
+    },
+    {
+      "id": "8757",
+      "title": "gggg",
+      "body": "gggggg",
+      "author": "yoshi"
+    },
+    {
+      "id": "206c",
+      "title": "gggg",
+      "body": "gggggg",
+      "author": "yoshi"
     }
   ]
 }
